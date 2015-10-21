@@ -9,5 +9,5 @@ module.exports = (robot) ->
     msg.send "http://media.biobiochile.cl/wp-content/uploads/2015/09/12176751.jpg"
 
 # coin tos
-  robot.hear /アリス(.*)おはよう/, (msg) ->
+  robot.hear /^アリス(.*)おはよう/, (msg) ->
     msg.send "おはようございます！"
